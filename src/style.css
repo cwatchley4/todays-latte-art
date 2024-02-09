@@ -87,7 +87,7 @@ h1 {
   padding: 16px 24px;
   letter-spacing: -1px;
   border-radius: 16px;
-
+  align-items: flex-end;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -253,6 +253,11 @@ ul {
 @media (max-width: 600px) {
   #root {
     padding: 24px;
+  }
+
+  body {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .header {

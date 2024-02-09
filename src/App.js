@@ -21,7 +21,7 @@ function App() {
           query = query.eq("category", currentCategory);
 
         const { data: art, error } = await query
-          .order("votesMug", { ascending: false })
+          .order("created_at", { ascending: false })
           .limit(1000);
 
         if (!error) setArt(art);
@@ -60,12 +60,7 @@ function Header({ showForm, setShowForm }) {
   return (
     <header className="header">
       <div className="logo">
-        <img
-          src="logo.png"
-          height="68"
-          width="68"
-          alt="Today's Latte Art Logo"
-        />
+        <h1>☕️</h1>
         <h1>{appTitle}</h1>
       </div>
       <button
