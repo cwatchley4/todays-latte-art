@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/todays-latte-art/static/css/main.207cb50d.css",
+    "main.js": "/todays-latte-art/static/js/main.5e187592.js",
+    "static/js/160.0ffd1946.chunk.js": "/todays-latte-art/static/js/160.0ffd1946.chunk.js",
+    "index.html": "/todays-latte-art/index.html",
+    "main.207cb50d.css.map": "/todays-latte-art/static/css/main.207cb50d.css.map",
+    "main.5e187592.js.map": "/todays-latte-art/static/js/main.5e187592.js.map",
+    "160.0ffd1946.chunk.js.map": "/todays-latte-art/static/js/160.0ffd1946.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.207cb50d.css",
+    "static/js/main.5e187592.js"
+  ]
+}
