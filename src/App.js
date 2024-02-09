@@ -256,6 +256,7 @@ function ArtList({ art, setArt }) {
 
 function Art({ art, setArt }) {
   const [isUpdating, setIsUpdating] = useState(false);
+  const [formattedDate, setFormattedDate] = useState("");
 
   console.log("Image URL:", art.image_url);
 
@@ -277,6 +278,21 @@ function Art({ art, setArt }) {
       );
   }
 
+  useEffect(() => {
+    const createdAtDate = new Date(art.created_at);
+    const options = {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+    };
+    const formatted = new Intl.DateTimeFormat("en-US", options).format(
+      createdAtDate
+    );
+    setFormattedDate(formatted);
+  }, [art.created_at]);
+
   return (
     <li className="art">
       <p>
@@ -293,6 +309,7 @@ function Art({ art, setArt }) {
       >
         {art.category}
       </span>
+      <span>{formattedDate}</span>
       <div className="vote-buttons">
         <button onClick={() => handleVote("votesMug")} disabled={isUpdating}>
           ☕️ {art.votesMug}
