@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/todays-latte-art/static/css/main.882b59ee.css",
-    "main.js": "/todays-latte-art/static/js/main.d90a5482.js",
+    "main.js": "/todays-latte-art/static/js/main.8ee3fa02.js",
     "static/js/160.0ffd1946.chunk.js": "/todays-latte-art/static/js/160.0ffd1946.chunk.js",
     "index.html": "/todays-latte-art/index.html",
     "main.882b59ee.css.map": "/todays-latte-art/static/css/main.882b59ee.css.map",
-    "main.d90a5482.js.map": "/todays-latte-art/static/js/main.d90a5482.js.map",
+    "main.8ee3fa02.js.map": "/todays-latte-art/static/js/main.8ee3fa02.js.map",
     "160.0ffd1946.chunk.js.map": "/todays-latte-art/static/js/160.0ffd1946.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.882b59ee.css",
-    "static/js/main.d90a5482.js"
+    "static/js/main.8ee3fa02.js"
   ]
 }
